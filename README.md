@@ -7,8 +7,9 @@ Credit card fraud detection is a set of methods and techniques designed to block
 
 ## Acknowledgements
 
- - [Explore the dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
- - [Introduce the algorithm](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Learn About ML using Python](https://www.geeksforgeeks.org/machine-learning-with-python/)
+ - [Explore the Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfrauds)
+ - [Algorithm using in Project](https://www.geeksforgeeks.org/k-nearest-neighbors-with-python-ml/)
 
 ## Features
 Selecting and engineering pertinent features from the dataset is necessary to create a credit card fraud detection model that works. Here's a step-by-step tutorial on selecting and preparing features for Python credit card fraud detection:
@@ -127,6 +128,9 @@ Remember that feature engineering is an iterative process, and you may need to f
   
 
 
+## Authors
+
+- [@Md Nurullah](https://github.com/SheikhNoor)
 
 
   
