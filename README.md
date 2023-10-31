@@ -7,10 +7,8 @@ Credit card fraud detection is a set of methods and techniques designed to block
 
 ## Acknowledgements
 
- - [Learn About ML using Python](https://www.geeksforgeeks.org/machine-learning-with-python/)
- - [Explore the Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfrauds)
- - [Algorithm using in Project](https://www.geeksforgeeks.org/k-nearest-neighbors-with-python-ml/)
-
+ - [Explore the dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+ - [Introduce the algorithm](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## Features
 Selecting and engineering pertinent features from the dataset is necessary to create a credit card fraud detection model that works. Here's a step-by-step tutorial on selecting and preparing features for Python credit card fraud detection:
@@ -69,26 +67,15 @@ use StandardScaler or MinMaxScaler, for example, to scale numerical features to 
 if any, encoding category features.
 constructing aggregations or interaction characteristics to identify trends in the data.
 
-
-    from sklearn.preprocessing import StandardScaler
-
-    from sklearn.preprocessing import LabelEncoder
-
-    #Scale numerical features
-
-    scaler = StandardScaler()
-
-    scaler = StandardScaler()scaler.fit_transform
-
-    (X[selected_features])
-
-    #Encode categorical features (if any)
-
-    #For example, if you have a "category" column:
-
-    #encoder = LabelEncoder()
-
-    #X["category_encoded"] = encoder.fit_transform(X["category"]
+        from sklearn.preprocessing import StandardScaler
+        from sklearn.preprocessing import LabelEncoder
+        #Scale numerical features
+        scaler = StandardScaler()
+        scaler = StandardScaler()scaler.fit_transform(X[selected_features])
+        #Encode categorical features (if any)
+        #For example, if you have a "category" column:
+        #encoder = LabelEncoder()
+        #X["category_encoded"] = encoder.fit_transform(X["category"])
 
   
 - **Data Splitting:**
@@ -98,8 +85,6 @@ constructing aggregations or interaction characteristics to identify trends in t
   
 
     from sklearn.model_selection import train_test_split
-    from sklearn.model_selection import train_test_split
-
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 
@@ -120,7 +105,7 @@ constructing aggregations or interaction characteristics to identify trends in t
 
     y_pred = model.predict(X_test)
 
-**1.Model Evaluation:**
+**Model Evaluation:**
 
 Assess the model's performance using relevant metrics, such as accuracy, precision, recall, F1-score, and area under the ROC curve (AUC-ROC).
 
